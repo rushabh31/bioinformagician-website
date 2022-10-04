@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss -i ./src/tailwind.css -o ./src/css/tailwind.css -w",
-    "dev": " live-server ./build",
+    "dev-build": " live-server ./build",
+    "dev-src": " live-server ./src",
     "build": "gulp"
   },
   "keywords": [],
